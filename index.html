@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <title>The relationships between services</title>
+    <script src='vendor-js/cytoscape.js'></script>
+    <script src='generate.js'></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <h1>Service Relationships
+      <span style="font-size:15px; color: #888;">
+        This is not reflecting infrastructure.
+        It is only showing the relationships between services.
+      </span>
+    </h1>
+    <div id="inner-container">
+      <div id="left">
+        <h2>Legacy</h2>
+      </div>
+      <div id="right">
+        <h2>To-be</h2>
+      </div>
+    </div>
+  </div>
+  <script src='universal.js'></script>
+  <script src='legacy.js'></script>
+  <script src='to-be.js'></script>
+  <script src='bgs.js'></script>
+  <script src='index.js'></script>
+</body>
+</html>
